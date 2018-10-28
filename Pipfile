@@ -1,0 +1,22 @@
+[[source]]
+verify_ssl = true
+name = "pypi"
+url = "https://pypi.org/simple"
+
+[dev-packages]
+
+[packages]
+eventlet = "*"
+flask-socketio = "*"
+keras = "*"
+tensorflow-gpu = "*"
+matplotlib = "*"
+moviepy = "*"
+numpy = "*"
+opencv-python = "*"
+pillow = "*"
+requests = "*"
+scikit-learn = "*"
+
+[requires]
+python_version = "3.6"
